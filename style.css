@@ -1,4 +1,12 @@
 /* General */
+
+/* 
+https://www.youtube.com/watch?v=ldwlOzRvYOU
+
+1:35:35
+
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * { 
@@ -145,13 +153,184 @@ a:hover{
 }
 
 
+/* SECTIONS */
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0, 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section_container{
+    display: flex;
+
+}
+
+
+/* PROFILE SECTIONS */
+
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+
+}
+
+.section_pic-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_text{
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p{
+    font-weight: 600;
+}
+
+.section_text_p1{
+    text-align: center;
+    
+}
+.section_text_p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* icons */
+
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* BUTTONS  */
+
+.btn-container{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+     
+}
+
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, 
+.btn-color-2{
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+
+.btn-color-1:hover, 
+.btn-color-2:hover{
+    cursor: pointer;
+
+}
+
+.btn-color-1, 
+.btn-color-2:hover{
+    background: rgb(53, 53, 53);
+    color:white;
+}
+
+.btn-color-1:hover{
+    background: rgb(0, 0, 0);
+}
+
+.btn-color-2{
+    background: none;
+}
+
+.btn-color-2:hover{
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container{
+    gap: 1rem; 
+}
 
 
 
+/* ABOUT SECTION */
 
-/* 
-https://www.youtube.com/watch?v=ldwlOzRvYOU
+#about{ 
+    position:relative;
+}
 
-40:35
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem; 
+}
 
-*/
+.about-details-container{
+    justify-content: center;;
+    flex-direction: column;
+    margin-left: 8.5rem; 
+    margin-right: 6rem;
+}
+
+.about-containers, 
+.about-details-container{
+    display: flex;
+}
+
+.about-pic{
+    border-radius: 2rem;
+    margin-left: 8rem;
+}
+
+.arrow{
+    position: absolute;
+    right: 5rem;
+    bottom: 2rem;
+    height: 20px; 
+    width: 20px;
+}
+
+.details-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+}
+
+.section_container{
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container{
+    height: 400px;
+    width:400px;
+    margin: auto 0;
+}
